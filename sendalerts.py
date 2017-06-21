@@ -6,7 +6,7 @@ import urllib
 import ast
 from boto3.dynamodb.conditions import Key, Attr
 
-slack_token = 'xoxp-200614362405-201329483398-200462581635-f58f47a4b0d42a91fb8df72589885873'
+slack_token = 'HIDDEN'
 # don't trap decimal errors
 # setcontext(Context(traps=[]))
 logger = logging.getLogger()
